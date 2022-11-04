@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { ToastrService } from 'ngx-toastr';
 import { Router, RouterModule } from '@angular/router';
-import { ErrorFireService } from '../../services/error-fire.service';
+import { ErrorFireService } from '../../services/error-fire/error-fire.service';
 
 @Component({
   selector: 'app-register',
